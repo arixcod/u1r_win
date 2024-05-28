@@ -1,0 +1,97 @@
+{
+  "project_info": {
+    "project_number": "159181871509",
+    "project_id": "uttu-shop",
+    "storage_bucket": "uttu-shop.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159181871509:android:ef8dd744f4edf7d34dbe9c",
+        "android_client_info": {
+          "package_name": "com.arixcod.u1r"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159181871509-le9rqma4afkvepudjppdkdqmnjp2m5gu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzADlT9F7tmK2SDkv5G6Mgzq2Qj_KaBNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159181871509-le9rqma4afkvepudjppdkdqmnjp2m5gu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159181871509:android:5ee70642f8fc4da54dbe9c",
+        "android_client_info": {
+          "package_name": "com.arixpower.uttu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159181871509-le9rqma4afkvepudjppdkdqmnjp2m5gu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzADlT9F7tmK2SDkv5G6Mgzq2Qj_KaBNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159181871509-le9rqma4afkvepudjppdkdqmnjp2m5gu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:159181871509:android:f4a74e9d89f4e84b4dbe9c",
+        "android_client_info": {
+          "package_name": "com.arixpower.uttu_admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "159181871509-le9rqma4afkvepudjppdkdqmnjp2m5gu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzADlT9F7tmK2SDkv5G6Mgzq2Qj_KaBNQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "159181871509-le9rqma4afkvepudjppdkdqmnjp2m5gu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

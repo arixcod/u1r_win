@@ -1,0 +1,13 @@
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#272727"
+  image: assets/logo/U1R-logos_black.png
+  image_dark: assets/logo/U1R-logos_transparent.png
+
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#272727"
+    image: assets/logo/U1R-logos_black.png
+    image_dark: assets/logo/U1R-logos_transparent.png
+
+  web: false
