@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 import 'package:iconsax/iconsax.dart';
 import 'package:u1r/commons/widgets/custom_appbar/custom_apbbar.dart';
 import 'package:u1r/commons/widgets/layouts/gridlayouts.dart';
-import 'package:u1r/commons/widgets/product/roundedcontainer.dart';
 import 'package:u1r/commons/widgets/shimmer/Tverticleproductshimmer.dart';
 import 'package:u1r/features/auth/screens/all_products/all_products.dart';
 import 'package:u1r/features/auth/screens/notifications/notificationsCentre.dart';
@@ -253,7 +252,7 @@ class HomeScreen extends StatelessWidget {
                               if (producontroller.featuredproducts.isEmpty) {
                                 return const Center(
                                   child: Text(
-                                      "No Products Available ,Looks Like Shop is close"),
+                                      "No Products Available"),
                                 );
                               }
 
@@ -284,8 +283,10 @@ class HomeScreen extends StatelessWidget {
 /*Banner Section Ends Here */
 
 class ThomeAppbar extends StatelessWidget {
+  
   final controller = Get.put(HomeController());
-  BuildContext context;
+  final BuildContext context;
+  
   ThomeAppbar({super.key, required this.context});
 
   @override

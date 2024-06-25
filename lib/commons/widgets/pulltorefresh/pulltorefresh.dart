@@ -1,5 +1,4 @@
 import 'dart:io';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -13,10 +12,12 @@ class RefreshWidget extends StatefulWidget {
     required this.keyRefresh,
     required this.onRefresh,
     required this.child,
-  }) ;
+  });
+
   @override
   _RefreshWidgetState createState() => _RefreshWidgetState();
 }
+
 
 class _RefreshWidgetState extends State<RefreshWidget> {
   @override

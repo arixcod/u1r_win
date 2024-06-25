@@ -1,10 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:u1r/features/auth/screens/categoryscreen/categoryscreen.dart';
 import 'package:u1r/features/auth/screens/searchscreen/searchscreen.dart';
-import '../../../utils/constatnts/colors.dart';
+
 import '../../../utils/constatnts/sizes.dart';
-import '../../../utils/device/device_utility.dart';
 
 class searchwidget extends StatelessWidget {
   const searchwidget(

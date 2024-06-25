@@ -3,7 +3,6 @@ import 'package:get/get.dart';
 import 'package:u1r/features/auth/controllers/cart_controller.dart/cart_controller.dart';
 import 'package:u1r/features/shop/models/product_model.dart';
 import 'package:u1r/features/shop/productdetails/productdetails.dart';
-
 import '../../../utils/constatnts/colors.dart';
 
 class addtocartbtnongrid extends StatelessWidget {
@@ -15,15 +14,17 @@ class addtocartbtnongrid extends StatelessWidget {
 
     return GestureDetector(
       onTap: () {
-        //If product is garded then show the grades
+        
+        // If product is garded then show the grades
 
-        //else directly add to the cart
+        // Else directly add to the cart
 
         if (product.isgraded == 'false') {
           final cartItem = controller.converttocartItem(product, 1);
           controller.addOneitemtocart(cartItem);
         } else {
-          // Go to the product details screen
+         
+           // Go to the product details screen
 
           Get.to(() => Productdetailcreen(product: product));
         }
@@ -35,17 +36,17 @@ class addtocartbtnongrid extends StatelessWidget {
         return Padding(
           padding: const EdgeInsets.all(8.0),
           child: Container(
-            height: 40,
-            width: 40,
+            height: 35,
+            width: 35,
             decoration: BoxDecoration(
                 color: productQuantityinCart > 0
                     ? Tcolors.primaryColor
                     : Tcolors.primaryColorbtnshade,
-                borderRadius: BorderRadius.circular(12)),
+                borderRadius: BorderRadius.circular(10)),
                 child: productQuantityinCart > 0
                 ? Center(
                   child: Text(productQuantityinCart.toString(),textAlign: TextAlign.center,style: Theme.of(context).textTheme.bodySmall!.copyWith(
-                      fontSize: 18,
+                      fontSize: 15,
                         fontWeight: FontWeight.w600,
                        color: Tcolors.white
                     ),
@@ -54,6 +55,7 @@ class addtocartbtnongrid extends StatelessWidget {
                 : Icon(
                     Icons.add,
                     color: Tcolors.white,
+                    size: 20,
                   ),
           ),
         );

@@ -19,7 +19,6 @@ class Tverticalproductshimmer extends StatelessWidget {
                 // shimmer for the Image
                 TShimmerWidget(width: 180, height: 180),
                 SizedBox(height: Tsizes.spacebtwnitems),
-               
                 TShimmerWidget(width: 180, height: 15),
                 SizedBox(height: Tsizes.spacebtwnitems/2),
                 TShimmerWidget(width: 180, height: 15),
